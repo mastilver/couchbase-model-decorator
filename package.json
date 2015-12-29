@@ -11,7 +11,7 @@
     "url": "mastilver.com"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "xo && ava",
@@ -34,6 +34,7 @@
     "babel": "^5.8.34",
     "babel-core": "^5.8.34",
     "joi": "^7.1.0",
+    "rimraf": "^2.5.0",
     "xo": "^0.11.2"
   },
   "xo": {
