@@ -1,8 +1,7 @@
 language: node_js
 node_js:
+  - '4'
   - 'stable'
-  - '0.12'
-  - '0.10'
 addons:
   apt:
     sources:
@@ -12,4 +11,3 @@ addons:
       - libstdc++-4.8-dev
 before_install:
   - export CXX="g++-4.8" CC="gcc-4.8"
-  - npm install -g npm@latest
