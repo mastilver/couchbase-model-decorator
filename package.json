@@ -1,6 +1,7 @@
 {
   "name": "couchbase-model-decorator",
   "version": "0.0.0",
+  "main": "build/index.js",
   "description": "My terrific module",
   "license": "MIT",
   "repository": "mastilver/couchbase-model-decorator",
@@ -37,6 +38,9 @@
   },
   "xo": {
     "space": 4,
-    "esnext": true
+    "esnext": true,
+    "ignore": [
+      "build/**"
+    ]
   }
 }

@@ -12,3 +12,4 @@ addons:
       - libstdc++-4.8-dev
 before_install:
   - export CXX="g++-4.8" CC="gcc-4.8"
+  - npm install -g npm@latest
